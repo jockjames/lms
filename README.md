@@ -1,4 +1,8 @@
-# LMS ARQUITECTURE AND CI/CD STRATEGY
+# LMS DIAGRAM & ARQUITECTURE
+## DIAGRAM
+
+![DIAGRAM](./lms-eks.jpeg)
+
 ## ARQUITECURE
 
 1. To create a versioned IaC of all the components with Terraform, "A must" is to have a contingency strategy within another region, containing the same resources.
