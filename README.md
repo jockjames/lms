@@ -1,3 +1,4 @@
+# LMS INFRAESTRUCTURE
 In first place, i'll ennumerate the AWS resources that would be part of the arquitecture. 
  to create a versioned IaC of all the components with Terraform, "A must" is to have a contingency environment within another region, it should be turned on in case there occurs problems in the regions used in our main environment. the switching strategy should be handled(my choice) ArgoCD and the Terraform plan. Each plan must consider at least 2 AZ and to have each AZ one piece of each resource below descripted.
  Route 53 to handle the request trought our diferent landings, it must to have attached the SSL certificates, I recommend to have a single wildcard certificate with 3 sublevels.
